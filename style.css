@@ -1,0 +1,86 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    background-color: #eedac8;
+}
+
+.logo {
+    max-width: 4em;
+}
+
+header {
+    background-color: #00d66c;
+    max-height: 5em;
+}
+
+
+nav,
+.logo {
+    font-weight: 600;
+}
+
+nav{
+    position: fixed;
+    overflow: hidden;
+    width: 100%;
+    background-color: white;
+    bottom: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    list-style: none;
+    color: #00d66c;
+}
+a:focus{
+    color: #27368c;
+}
+a:hover{
+    color: #27368c;
+}
+h1 {
+    color: white;
+    text-align: center;
+    display: inline-block;
+}
+
+.optie {
+    background-color: white;
+    border-radius: 1em;
+    margin: 1em;
+    padding: 1em;
+}
+
+button{
+    background-color: #e83c6b;
+    border-radius: 1em;
+    color: white;
+    padding: 1em;
+    margin: 0.5em;
+}
+
+
+
+fieldset {
+    border: none;
+}
+
+article {
+    background: white;
+    border-radius: 1em;
+    padding: 1em;
+    box-sizing: border-box;
+    margin: 1em;
+}
+
+article img{
+    width: 100%;
+    width: calc(100%+2em);
+}
+
+h2 {
+    color: #00d66c;
+}
