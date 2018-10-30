@@ -4,24 +4,28 @@
 <head>
     <meta charset="UTF-8">
     <title>Verhalen website - Inloggen </title>
-    <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
-<body>
+<body class="aanmelden">
 
     <header>
-        <img src="img/01.jpg" alt="Homepage" class="logo" href="
-        ">
+        <section>
+           <img src="img/01.jpg" alt="Homepage" class="logo">
         <h1>Account</h1>
-        <nav>
-            <ul>
-                <li> <a href="index.html">Verhalen</a></li>
-                <li> <a>Over ons</a></li>
-                <li> <a href="inloggen.html">Account</a></li>
-                <li> <a href="">Favoriet</a></li>
-            </ul>
-        </nav>
+          <nav >
+                <ul>
+                    <li> <a href="index.html">Verhalen</a></li>
+                    <li> <a>Favoriet</a></li>
+                    <li> <a href="">Gedownload</a></li>
+                    <li> <a href="inloggen.html">Account</a></li>
+                </ul>
+            </nav>
+
+
+        </section>
     </header>
 
     <main>
@@ -31,25 +35,27 @@
             <form action="www.gettoknowthedutchgril.nl/zoeken">
                 <!-- //formulier om dingen in in te vullen. Naam en ww -->
                 <fieldset>
-                    <h2>Inloggen</h2>
+                    <legend>Inloggen</legend>
                     <label>Name
                     <input type="text" placeholder="Account naam" required>
-                    </label><br>
+                    </label>
 
 
-                    <label>Password<input type="password" placeholder="Wachtwoord" required></label><br>
+                    <label>Password<input type="password" placeholder="Wachtwoord" required></label>
 
                     <label>ik ben geen robot<input type="radio" required></label>
-<br>
-                    <button>Go</button>
+                    <button>Inloggen</button>
+                </fieldset>
+                <fieldset>
+                    <p>Heb je nog geen account? <a href="aanmeldpagina.html">Klik hier</a></p>
                 </fieldset>
             </form>
         </section>
-
     </main>
 
-    <footer>
-
+       <footer>
+        <h5>Copy right to Annika van Tent</h5>
+        <p>Project WEB</p>
     </footer>
 
 </body>

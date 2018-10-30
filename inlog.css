@@ -1,0 +1,164 @@
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    background-color: #eedac8;
+}
+
+header img {
+    max-width: 4em;
+    height: 3em;
+}
+
+header {
+    background-color: #00d66c;
+    max-height: 5em;
+    position: fixed;
+    width: 100%;
+    margin-top: -4em;
+    padding-top: 1em;
+    display: grid;
+    z-index: 3;
+}
+
+nav {
+    overflow: hidden;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    font-weight: 600;
+    z-index: 10;
+}
+nav a {
+    text-decoration: none;
+}
+nav a:focus {
+    color: #27368c;
+}
+
+nav a:hover {
+    color: #27368c;
+    font-weight: 800;
+}
+
+nav a:active {
+    color: #27368c;
+}
+
+@media (min-width: 40em) {
+
+    header{
+        margin-top: -7em;
+    }
+
+    nav {
+        position: relative;
+        background-color: transparent;
+        width:50%;
+        margin: 0 2em;
+        display: flex;
+
+    }
+    nav a {
+        color: white;
+    }
+    ul {
+        width: 100%;
+        padding: 0;
+        display: flex;
+    }
+    li{
+        padding: 0 0.5em
+    }
+
+    .optie{
+        width: 40em;
+        margin-top: 7em;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+    }
+
+
+
+}
+
+
+ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+a {
+    list-style: none;
+    color: #00d66c;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+
+section {
+    display: flex;
+}
+
+
+.optie {
+    background-color: white;
+    border-radius: 1em;
+    margin-top: 3em;
+    padding: 1em;
+}
+
+legend {
+    color: #00d66c;
+    font-weight: 400;
+    font-size: 1.5em;
+}
+label{
+    margin-top:0.5em;
+}
+
+/*input{
+    display: block;
+    width:100%;
+    background: linear-gradient(21deg, #10abff, #1beabd);
+    border-radius: 1em;
+    padding: 0.5em;
+    margin-top: 0.5em;
+    position: relative;
+}*/
+
+
+
+
+
+button, submit {
+    background-color: #e83c6b;
+    border-radius: 1em;
+    color: white;
+    padding: 1em;
+    margin: 0.5em;
+    align-self: baseline;
+}
+
+main{
+    margin-top:7em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+
+
+.flexing {
+    display: block;
+}
+nav p{
+    color: hotpink;
+    font-weight: 800;
+}

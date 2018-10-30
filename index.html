@@ -6,27 +6,25 @@
     <title>Verhalen website - Home pagina</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
 </head>
 
 <body>
     <header>
-        <img src="img/01.jpg" alt="Homepage" class="logo" href="
-        ">
-        <h1>Verhalen</h1>
         <section>
+            <img src="img/01.jpg" alt="Homepage" class="logo">
+            <h1>99 verhalen</h1>
             <nav class="menu">
                 <ul>
                     <li> <a href="index.html">Verhalen</a></li>
-                    <li> <a>Over ons</a></li>
+                    <li>
+                        <a>Favoriet</a><span></span></li>
+                    <li> <a href="">Gedownload</a></li>
                     <li> <a href="inloggen.html">Account</a></li>
-                    <li> <a href="">Favoriet</a></li>
                 </ul>
             </nav>
-
-            <!--<form>
-                <label><input type="search" placeholder="Zoek naar verhalen"></label>
-                <button>zoek</button>
-            </form> -->
 
         </section>
     </header>
@@ -36,48 +34,118 @@
     <main>
 
 
-        <section class="optie">
-            <h2>Sorteren</h2>
-            <form action="">
-                <fieldset>
-                    <legend>selecteer je filter functie</legend>
-                    <label><input type="radio" name="filter">Chronologisch </label>
-                    <label><input type="radio" name="filter">Rating</label>
-                    <label><input type="radio" name="filter">Random</label>
-
-                    <button>Filter (...zoekresultaten)</button>
-                </fieldset>
-            </form>
-        </section>
-
-        <section class="optie">
-            <h2>Filter</h2>
+        <section class="sorteren">
             <form>
-               <fieldset>
-                  <legend>Leestijd</legend>
-                   <label><input type="range">Leestijd</label>
-               </fieldset>
                 <fieldset>
-                    <!--lijn die eromheen zit-->
-                    <legend>Gevoel</legend>
-                    <!--Titel van je formulier sectie-->
-                    <label> <input type="radio" name="sorteren">Vrolijk</label>
-                    <!--name sorteren zorgt ervoor dat je maar 1 mag aanklikken!!-->
-                    <label> <input type="radio"name="sorteren">Chagerijnig</label>
-                    <label> <input type="radio"name="sorteren">Boos</label>
-                    <button>Filter (...zoekresultaten)</button>
+                    <legend>Sorteren</legend>
+                    <button>Chronologisch</button>
+                    <button>Rating</button>
                 </fieldset>
             </form>
         </section>
+
+        <section class="random">
+
+            <fieldset>
+                <legend><a href="">Random</a></legend>
+            </fieldset>
+        </section>
+
+        <section class="filteren">
+            <form action="index2.html">
+                <fieldset>
+                    <legend>Laat filter functies zien</legend>
+                </fieldset>
+
+                <section class="dropdown">
+                    <fieldset>
+                        <legend>Gevoel</legend>
+                        <div class="flexing">
+                        <div>
+                        <ul>
+                            <li><label><input type="checkbox">Vrolijk</label></li>
+                            <li><label><input type="checkbox">Agressief</label></li>
+                            <li><label><input type="checkbox">Chaotisch</label></li>
+                            <li><label><input type="checkbox">Verdriet</label></li>
+                            <li><label><input type="checkbox">Nieuwsgierig</label></li>
+                            </ul>
+                            </div>
+                            <div>
+                            <ul>
+                            <li><label><input type="checkbox">Voldaan</label></li>
+                            <li><label><input type="checkbox">Serieus</label></li>
+                            <li><label><input type="checkbox">Druk</label></li>
+                            <li><label><input type="checkbox">Spanning</label></li>
+                            <li><label><input type="checkbox">Komisch</label></li>
+                            <li><label><input type="checkbox">Grimmig</label></li>
+                            </ul>
+                            </div>
+                            </div>
+
+                    </fieldset>
+                        <input type="submit">
+
+                </section>
+
+            </form>
+        </section>
+
+
+        <h2>Voorstellen voor jou</h2>
 
         <article>
             <h3>Regenboog</h3>
-            <img src="img/453568823_1200x675.jpg" alt="">
-            <a href=""><button>Lees dit verhaal</button></a>
+            <button><a href="verhaal.html">Lees dit verhaal</a></button>
+            <img src="img/Regenboog%20verhaal.png" alt="tumbnail verhaal">
+
+            <div>
+                <img src="img/heart-outline.svg" class="heart" alt="hartjesbutton">
+                <img src="img/microinteractie-03.svg" class="download" alt="downloadbutton">
+            </div>
         </article>
 
+        <article>
+            <h3>Droom</h3>
+            <button><a href="">Lees dit verhaal</a></button>
+            <img src="img/Droom.png" alt="tumbnail verhaal">
+
+            <div>
+                <img src="img/heart-outline.svg" class="heart" alt="hartjesbutton">
+                <img src="img/microinteractie-03.svg"  class="download" alt="downloadbutton">
+            </div>
+        </article>
+
+        <article>
+            <h3>Essentie</h3>
+            <a href=""><button>Lees dit verhaal</button></a>
+            <img src="img/essentie.png" alt="tumbnail verhaal">
+
+            <div>
+                <img src="img/heart-outline.svg" class="heart" alt="hartjesbutton">
+                <img src="img/microinteractie-03.svg"  class="download" alt="downloadbutton">
+            </div>
+        </article>
+
+        <article>
+            <h3>Stoned</h3>
+            <a href=""><button>Lees dit verhaal</button></a>
+            <img src="img/stoned.png" alt="tumbnail verhaal">
+
+            <div>
+                <img src="img/heart-outline.svg" class="heart" alt="hartjesbutton">
+                <img src="img/microinteractie-03.svg" class="download" alt="downloadbutton">
+            </div>
+        </article>
 
     </main>
+
+    <footer>
+        <h5>Copy right to Annika van Tent</h5>
+        <p>Project WEB</p>
+    </footer>
+
+    <script src="script.js"></script>
+
 
 </body>
 
