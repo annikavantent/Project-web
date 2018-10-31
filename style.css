@@ -40,7 +40,6 @@ nav a {
     text-decoration: none;
 }
 nav ul li{
-    padding-left: 0.3em;
     padding-right: 0.3em;
 }
 
@@ -376,6 +375,18 @@ footer {
     .filteren2{
         grid-column: span 1;
     }
+    .optie{
+        display: block;
+    }
+    .mobile{
+        grid-column: span 1;
+        width: 100%;
+        display: flex;
+    }
+
+    .tablet, .desktop{
+        display: none;
+    }
 
 }
 
@@ -430,11 +441,21 @@ footer {
         width: 40em;
         margin-left: auto;
         margin-right: auto;
+        margin-bottom: 2em;
+        justify-content: center;
     }
     .filteren2{
         grid-column: span 2;
     }
     .filteren2 h4 {
+        display: flex;
+    }
+    .mobile, .desktop{
+        display: none;
+    }
+    .tablet{
+        grid-column: span 2;
+        width: 100%;
         display: flex;
     }
 }
@@ -469,9 +490,14 @@ footer {
         color: white;
     }
     .fileren2{
-         width: 100%;
+
          grid-column: span 3;
     }
+
+    .filteren2 ul{
+            display: flex;
+    }
+
      .filteren{
          margin-top: 2em;
         grid-row: 1 / 3;
@@ -487,5 +513,16 @@ footer {
     label{
         display: flex;
     }
-
+    .desktop {
+        display: flex;
+        width: 100%;
+        grid-column: span 3;
+    }
+    .mobile, .tablet{
+        display: none;
+    }
 }
+
+
+
+

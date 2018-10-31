@@ -42,15 +42,3 @@ uitklappen.addEventListener('click', function(){
 //
 //add eventlistner click en function
 
-var downloading = document.querySelectorAll('.downloaden')
-
-function verander (){
-    if {var downloading = leeg.img;
-       downloading.src = vol.img}
-    else{
-        var dowloading = vol.img;
-    }
-
-}
-
-downloading.addEventListener('click', verander)
